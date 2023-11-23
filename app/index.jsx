@@ -6,7 +6,7 @@ export default function Index() {
     return (
         <View className="flex-1 flex justify-end">
             <StatusBar style="light"/>
-            <Image className="h-full w-full absolute" source={require("../assets/images/welcome.png")}/>
+            <Image style={{ height: hp(100), width: wp(100) }} source={require('../assets/images/welcome.png')} />
             <LinearGradient colors={['transparent', '#18181b']}
                             style={{width:wp(100), height:hp(70)}}
                             start={{x:0.5, y:0}}
