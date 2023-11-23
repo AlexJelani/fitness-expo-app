@@ -14,7 +14,12 @@ export default function Index() {
                             className="flex justify-end pb-12 space-y-8"
             />
             <View className="flex items-center">
-                <Text className="text-white">Best Workouts</Text>
+                <Text className="text-white font-bold tracking-wide" style={{fontSize:hp(5)}}>
+                    Best <Text className="text-rose-500">Workouts</Text>
+                </Text>
+                <Text className="text-white font-bold tracking-wide" style={{fontSize:hp(5)}}>
+                    For you
+                </Text>
             </View>
         </View>
     );
